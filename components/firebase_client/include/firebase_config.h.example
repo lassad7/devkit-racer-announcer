@@ -1,0 +1,9 @@
+// firebase_config.h.example
+// Copy this file to firebase_config.h in the same directory (components/firebase_client/include/).
+// Fill in real values before building. DO NOT commit firebase_config.h to version control.
+// Distribute credentials to teammates via a secure channel (not git).
+
+#define FIREBASE_PROJECT_URL  "https://your-project-default-rtdb.firebaseio.com"
+#define FIREBASE_API_KEY      "your-web-api-key-here"
+#define WIFI_SSID             "your-network-ssid"
+#define WIFI_PASSWORD         "your-network-password"
